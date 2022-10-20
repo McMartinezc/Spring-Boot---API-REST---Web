@@ -7,19 +7,22 @@ import lombok.*;
 
 import javax.persistence.*;
 
-//Utilitxem el lombok per implementar getters i setters, constructor i toString
+//Utilitxem anotacions de lombok per implementar getters i setters, constructor i toString
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
 @Getter
 @Setter
 @Data
+
 @Entity
 @Table(name="flor")
 
 public class Flor  {
 
+    //Anotación personalizada para que aparezca en el swagger
     @ApiModelProperty(notes="Id s'autogenera", required = true)
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
