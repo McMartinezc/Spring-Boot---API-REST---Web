@@ -6,7 +6,7 @@ import lombok.*;
 import java.io.Serializable;
 import java.util.List;
 
-//Afegim lombok per crear els constructors, getters i settes, toString
+//Afegim lombok per crear els constructors, getters i setters, toString
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
