@@ -16,9 +16,7 @@ import static springfox.documentation.builders.PathSelectors.regex;
 
 //Configuración  Swagger para la generación de documentación de la Api Rest
 //http://localhost:9001/swagger-ui/index.html#/
-//https://www.coderearth.net/swagger-java-spring-boot-rest-api/
-//https://codingnconcepts.com/spring-boot/how-to-configure-swagger/#:~:text=How%20to%20configure%20Swagger%20in%20spring%20boot%201,7%20Generate%20REST%20Client%20with%20Swagger%20Codegen%20
-//https://www.springboottutorial.com/spring-boot-swagger-documentation-for-rest-services
+
 @Configuration
 //Anotación que habilita el Swagger
 @EnableSwagger2
